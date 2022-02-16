@@ -3,6 +3,10 @@ const express = require('express');
 
 //Add the PORT designation and app exression
 const PORT = process.env.PORT || 3001;
+const express = require('express');
+const app = express();
+
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 //Express middleware
